@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-size: 20px;
+}
+
+main {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: brown;
+    color: white;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button {
+    border: none; 
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+.results {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maths {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    max-height: 150px;
+    width: 100%;
+    color: white;
+    overflow: auto;
+}
+
+.divCold {
+    background-color: rgb(78, 147, 200);
+    height: 20px;
+    width: 96%;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 2px;
+    padding: 8px 2px 8px 3px;
+}
+
+.divCold:hover {
+    background-color: rgb(54, 113, 158);
+}
+
+.divHot {
+    background-color: rgb(199, 31, 31);
+    height: 20px;
+    width: 96%;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin: 2px;
+    padding: 8px 2px 8px 3px;
+}
+
+.divHot:hover {
+    background-color: rgb(150, 15, 15);
+}
+
+.divWin {
+    background-color: rgb(255, 217, 0);
+    height: 20px;
+    width: 96%;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px; 
+    margin: 2px;
+    padding: 8px 2px 8px 3px;
+}
+
+.divWin {
+    background-color: rgb(200, 170, 2);
+}
